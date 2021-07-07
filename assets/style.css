@@ -1,4 +1,4 @@
-
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -17,24 +17,29 @@
     grid-column-gap: 2%;
 }
 .number {
-    padding : 20px;
+    padding : 12px;
     font-size: 15px;
     color: #ffffff;
 }
-#box1, #box2, #box3, #box4 {
-    columns: 1, 5;
-}
 #box1 {
     background-color: #B03432;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 #box2 {
     background-color: #31997A;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
 #box3 {
     background-color: #34A8A6;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
 }
 #box4 {
     background-color: #6C478F;
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
 }
 #box5 {
     grid-column: 1 / 2;
